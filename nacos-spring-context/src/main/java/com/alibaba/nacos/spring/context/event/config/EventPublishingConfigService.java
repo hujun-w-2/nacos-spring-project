@@ -174,7 +174,7 @@ public class EventPublishingConfigService
 
 	/**
 	 * Destroy lifecycle method to invoke {@link #shutDown()}
-	 * @throws Exception
+	 * @throws Exception throw exception
 	 * @since 1.0.0
 	 */
 	@Override

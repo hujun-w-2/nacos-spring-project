@@ -20,12 +20,12 @@ public class PlaceholderHelper {
 
     /**
      * find keys from placeholder
-     * ${key} -> "key"
-     * xxx${key}yyy -> "key"
-     * ${key:${key2:1}} -> "key", "key2"
-     * ${${key}} -> "key"
-     * ${${key:100}} -> "key"
-     * ${${key}:${key2}} -> "key", "key2"
+     * ${key} - "key"
+     * xxx${key}yyy - "key"
+     * ${key:${key2:1}} - "key", "key2"
+     * ${${key}} - "key"
+     * ${${key:100}} - "key"
+     * ${${key}:${key2}} - "key", "key2"
      * @param propertyString ${key}
      * @return key
      */

@@ -30,7 +30,6 @@
         <dependency>
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-spring-context</artifactId>
-            <version>${revision}</version>
             <optional>true</optional>
         </dependency>
     </dependencies>

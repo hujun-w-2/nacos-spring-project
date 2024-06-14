@@ -25,7 +25,7 @@ public abstract class NativeDetector {
 	private static final boolean imageCode = (System.getProperty("org.graalvm.nativeimage.imagecode") != null);
 
 	/**
-	 * Returns {@code true} if invoked in the context of image building or during image runtime, else {@code false}.
+	 * @return Returns {@code true} if invoked in the context of image building or during image runtime, else {@code false}.
 	 */
 	public static boolean inNativeImage() {
 		return imageCode;

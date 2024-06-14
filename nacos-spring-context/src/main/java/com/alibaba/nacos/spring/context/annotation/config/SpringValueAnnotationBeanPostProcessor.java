@@ -52,7 +52,6 @@ import static org.springframework.core.annotation.AnnotationUtils.getAnnotation;
 /**
  * @author wuhaoqiang
  * @since 1.1.2
- * @desc: spring @Value Processor
  **/
 public class SpringValueAnnotationBeanPostProcessor
         extends AbstractAnnotationBeanPostProcessor implements BeanFactoryAware,

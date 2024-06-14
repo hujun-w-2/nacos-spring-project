@@ -532,6 +532,7 @@ public abstract class NacosUtils {
 	 * @param group config group
 	 * @param text config context
 	 * @param type config type
+	 * @return  map format of result
 	 */
 	public static Map<String, Object> toProperties(String dataId, String group,
 			String text, String type) {
